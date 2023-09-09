@@ -10,15 +10,6 @@ body{
 }
 a{
     text-decoration: none;
-    /* list-style: none; */
-}
-nav{
-    /* background: linear-gradient(90deg, #223E72 0%, #C6DEB7 100%);
-    color: whitesmoke; */
-    /* background-color: #223E72 !important; */
-}
-nav li:hover{
-    /* background-color: #223E72; */
 }
 .btn-search{
     background-color: #223E72;
@@ -122,7 +113,6 @@ nav li:hover{
     color: #175ac7;
 }
 #accordion li label span{
-    /* transform: rotate(90deg); */
     font-size: 22px;
     color: #175ac7;
 }
@@ -140,8 +130,6 @@ nav li:hover{
     max-height: 400px;
     transition: 3s;
 }
-/* profile-img */
-
 
 /* second-navbar */
 .second-navbar{
@@ -152,20 +140,16 @@ nav li:hover{
     margin-bottom: 0;
 }
 .support-navbar{
-    /* background-color: #223E72; */
     background: linear-gradient(90deg, #C6DEB7 0%, #223E72 100%);
 }
 .support-navbar a{
     color: white !important;
-    /* color: white !important; */
 }
 .support-navbar a:hover{
     color: #C6DEB7 !important;
 }
 /* Card Section */
 .single-card{
-    /* padding: 0 !important; */
-    /* box-shadow: 10px 10px 10px 10px 5px #606060; */
     box-shadow: 5px 10px 8px 5px #eeeeee;
 }
 /* ticket-profile */
