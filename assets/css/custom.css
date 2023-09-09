@@ -1,0 +1,194 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    /* list-style: none; */
+}
+nav{
+    /* background: linear-gradient(90deg, #223E72 0%, #C6DEB7 100%);
+    color: whitesmoke; */
+    /* background-color: #223E72 !important; */
+}
+nav li:hover{
+    /* background-color: #223E72; */
+}
+.btn-search{
+    background-color: #223E72;
+}
+.btn-search:hover{
+    background-color: #C6DEB7;
+    color: #223E72;
+}
+.btn-suggest-keyword{
+    background-color: #223E72;
+}
+.btn-suggest-keyword:hover{
+    background-color: #C6DEB7;
+}
+/* Top Navbar */
+.top-bar{
+    margin-bottom: 0;
+}
+.store-location{
+    border-left: 2px solid gray;
+}
+.anchor-text > a{
+    text-decoration: none;
+    color: gray;
+}
+/* Banner Section */
+.suggest-keyword{
+    margin-bottom: 0;
+}
+.suggest-keyword-title{
+    color: #223E72;
+    font-weight: 500;
+}
+.carousel-img{
+    width: 100px;
+    border-radius: 50%;
+}
+.carousel-inner{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.offer-deal{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.offer-deal-title{
+    font-weight: 800;
+}
+.card{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 10px 8px 5px #eeeeee;
+}
+.deal-card{
+    margin-bottom: 34px !important;
+}
+.card img{
+    width: 100%;
+}
+.card-title{
+    font-size: 28px !important;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.card-text-p{
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+.primary-color{
+    color: #2B72E6;
+}
+/* faq-section */
+.faq-section{
+    background: #f5f5f5;
+}
+.faq-paragraph{
+    font-size: 18px;
+}
+#accordion{
+    margin: 50px auto;
+    width: 60%;
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    color: #175ac7;
+}
+#accordion li label span{
+    /* transform: rotate(90deg); */
+    font-size: 22px;
+    color: #175ac7;
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+    transition: 3s;
+}
+/* profile-img */
+
+
+/* second-navbar */
+.second-navbar{
+    padding: 20px 12px;
+}
+.second-navbar-profile h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.support-navbar{
+    /* background-color: #223E72; */
+    background: linear-gradient(90deg, #C6DEB7 0%, #223E72 100%);
+}
+.support-navbar a{
+    color: white !important;
+    /* color: white !important; */
+}
+.support-navbar a:hover{
+    color: #C6DEB7 !important;
+}
+/* Card Section */
+.single-card{
+    /* padding: 0 !important; */
+    /* box-shadow: 10px 10px 10px 10px 5px #606060; */
+    box-shadow: 5px 10px 8px 5px #eeeeee;
+}
+/* ticket-profile */
+.ticket-profile{
+    background: #eef5ff;
+}
+.your-name{
+    padding-top: 15px;
+}
+.your-email{
+    padding-bottom: 15px;
+}
+.edit-profile{
+    flex-wrap: nowrap;
+}
+.edit-profile-colume{
+    height: 450px !important;
+    margin-right: 20px;
+}
+.edit-profile-form-colume{
+    margin-left: 20px;
+}
+/* Footer */
+.footer-section{
+    background-color: #223E72;
+}
